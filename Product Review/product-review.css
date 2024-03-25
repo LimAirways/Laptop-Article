@@ -1,0 +1,81 @@
+body{
+  background-color: whitesmoke;
+  margin-inline: 10%;
+  margin-top: 70px;
+}
+
+p{
+  width: 100%;
+  max-width: 800px;
+}
+
+.top-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  box-shadow: 2px 8px 10px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.laptop-name{
+  margin-inline: 30px;
+  margin-block: 20px;
+  margin-top: 45vh;
+  
+}
+
+.Image{
+  height: 30%;
+  width: 30%;
+  border-style: solid;
+  margin-left: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+
+.overview, .display-section, .second-header{
+  width: 100%;
+  font-size: 20px;
+
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+  
+}
+
+.content-format{
+  display: grid;
+  grid-template-columns: 80%;
+  width: 100;
+}
+
+.left-section{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  background-color: white;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-body{
+  background-color: pink;
+  padding-left: 100px;
+  margin-right: 400px;
+  margin-left: 0;
+
+}
+
+.top-section{
+  background-color: lightblue;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  height: 293px;
+}

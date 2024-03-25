@@ -1,0 +1,38 @@
+.MainHeader{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  font-size: 50px;
+}
+.Header{
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  color: white;
+}
+
+.top-header{
+  background-color: white;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.25);
+
+  z-index: 100;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section{
+  display: flex;
+  font-family: Bebas Neue, Arial;
+  font-size: 45px;
+  padding-inline: 5%;
+}
